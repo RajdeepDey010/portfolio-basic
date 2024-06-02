@@ -388,23 +388,22 @@
                 </div>
 
                 <div class="right-contact">
-                    <form action="" class="contact-form">
+                    <form action="" id="form" class="contact-form">
                         <div class="input-control i-c-2">
-                            <input type="text" required placeholder="YOUR NAME">
-                            <input type="email" required placeholder="YOUR EMAIL">
+                            <input type="text" name="from_name" id="from_name" required placeholder="YOUR NAME">
+                            <input type="email" name="email_id" id="email_id" required placeholder="YOUR EMAIL">
                         </div>
                         <div class="input-control">
-                            <input type="text" required placeholder="ENTER SUBJECT">
+                            <input type="text" name="from_subject" id="from_subject" required
+                                placeholder="ENTER SUBJECT">
                         </div>
                         <div class="input-control">
-                            <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            <textarea name="message" id="message" cols="15" rows="8"
+                                placeholder="Message Here..."></textarea>
                         </div>
-                        <div class="submit-btn">
-                            <a href="#" class="main-btn">
-                                <span class="btn-txt">Send Message</span>
-                                <span class="btn-icon"><i class="fas fa-envelope"></i></span>
-                            </a>
-                        </div>
+                        <button class="submit-btn" id="button" type="submit" value="Send a Message">
+                                <span id="submit-btn-val">Send a Message</span>
+                        </button>
                     </form>
                 </div>
             </div>
@@ -431,6 +430,11 @@
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="scripts.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('HJ7mhJvAzBBDWsNvb')
+    </script>
 </body>
 
 </html>

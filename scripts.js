@@ -1,4 +1,26 @@
 
+const btn = document.getElementById('submit-btn-val');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.innerText = 'Sending...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_2052l8x';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.innerText = 'Send a Message';
+      alert('Your Email Sent!');
+    }, (err) => {
+      btn.innerText = 'Send a Message';
+      alert(JSON.stringify(err));
+    });
+});
+
+
 var typed = new Typed('#element', {
     strings: ['Puzzle Solver', 'Leetcoder', 'Graphic Designer', 'Web Developer'],
     typeSpeed: 50,

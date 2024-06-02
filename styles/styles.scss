@@ -568,6 +568,12 @@ section {
         .submit-btn {
             display: flex;
             justify-content: flex-start;
+            padding: 1rem;
+            border-radius: 10px;
+            background-color: var(--color-secondary);
+            color: white;
+            font-size: 1rem;
+            font-weight: bolder;
         }
     }
 }
