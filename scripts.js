@@ -13,7 +13,7 @@ document.getElementById('form')
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
       btn.innerText = 'Send a Message';
-      alert('Your Email Sent!');
+      alert('Email Sent!');
     }, (err) => {
       btn.innerText = 'Send a Message';
       alert(JSON.stringify(err));
