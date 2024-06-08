@@ -722,7 +722,7 @@ section {
     text-align: center;
   }
   .right-header .name {
-    font-size: 1.5rem !important;
+    font-size: 2rem !important;
   }
   .right-header p {
     text-align: center !important;
@@ -745,9 +745,6 @@ section {
   .timeline {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
-  }
-  .about-stats .progress-bars {
-    grid-template-columns: 1fr;
   }
   .controls {
     top: auto;

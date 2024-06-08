@@ -36,7 +36,7 @@
         margin: 0 auto;
         text-align: center;
         .name{
-            font-size: 1.5rem !important;
+            font-size: 2rem !important;
         }
         p{
             text-align: center !important;
@@ -62,12 +62,6 @@
     .timeline{
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
-    }
-
-    .about-stats{
-        .progress-bars{
-            grid-template-columns: 1fr;
-        }
     }
 
     .controls {
