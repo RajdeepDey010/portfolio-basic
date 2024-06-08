@@ -34,14 +34,14 @@
         width: 90%;
         margin: 0 auto;
         .name{
-            font-size: 2rem !important;
+            font-size: 1.5rem !important;
         }
     }
 
     .about-container{
         grid-template-columns: 1fr;
         .right-about{
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 1fr;
             padding-top: 2.5rem;
         }
         .left-about{
@@ -58,7 +58,9 @@
     }
 
     .about-stats{
-        
+        .progress-bars{
+            grid-template-columns: 1fr;
+        }
     }
 
     .controls {

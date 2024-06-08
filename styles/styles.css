@@ -720,13 +720,13 @@ section {
     margin: 0 auto;
   }
   .right-header .name {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
   }
   .about-container {
     grid-template-columns: 1fr;
   }
   .about-container .right-about {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     padding-top: 2.5rem;
   }
   .about-container .left-about {
@@ -738,6 +738,9 @@ section {
   .timeline {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
+  }
+  .about-stats .progress-bars {
+    grid-template-columns: 1fr;
   }
   .controls {
     top: auto;
