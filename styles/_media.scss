@@ -102,6 +102,10 @@
         margin-top: 1.5rem;
     }
 
+    .contact .right-contact form{
+        margin-bottom: 4rem;
+    }
+
     .controls {
         top: auto;
         bottom: 0;
@@ -120,5 +124,14 @@
     .theme-btn {
         width: 50px;
         height: 50px;
+    }
+
+    .main-title{
+        h2{
+            font-size: 2.2rem;
+            .bg-text{
+                display: none;
+            }
+        }
     }
 }

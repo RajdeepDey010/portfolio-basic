@@ -771,6 +771,9 @@ section {
     margin-left: 0;
     margin-top: 1.5rem;
   }
+  .contact .right-contact form {
+    margin-bottom: 4rem;
+  }
   .controls {
     top: auto;
     bottom: 0;
@@ -787,5 +790,11 @@ section {
   .theme-btn {
     width: 50px;
     height: 50px;
+  }
+  .main-title h2 {
+    font-size: 2.2rem;
+  }
+  .main-title h2 .bg-text {
+    display: none;
   }
 }/*# sourceMappingURL=styles.css.map */
