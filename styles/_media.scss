@@ -29,6 +29,9 @@
     .header-content .left-header .image {
         margin: 0 auto;
         width: 90%;
+        img{
+            filter: grayscale(0);
+        }
     }
 
     .right-header {
@@ -78,11 +81,16 @@
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
     }
-
+// achievement section
     .achievements {
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
+
+        .certi{
+            grid-template-columns: 1fr;
+        }
     }
+
 
     .contact-content-con {
         flex-direction: column;
