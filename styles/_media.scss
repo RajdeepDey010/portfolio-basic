@@ -80,6 +80,10 @@
     .portfolios {
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
+
+        img{
+            object-fit: cover;
+        }
     }
 // achievement section
     .achievements {

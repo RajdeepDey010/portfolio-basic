@@ -812,6 +812,10 @@ section {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
   }
+  .portfolios img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   .achievements {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
