@@ -557,6 +557,10 @@ section {
 .certi .certi-row .certi-text h4:hover {
   color: var(--color-secondary);
 }
+.certi .certi-row .certi-text h5 {
+  font-size: 1rem;
+  color: var(--color-grey-2);
+}
 .certi .certi-row .certi-text p {
   color: var(--color-grey-2);
   line-height: 2rem;
